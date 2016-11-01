@@ -13,7 +13,8 @@ b,strong{font-weight:inherit;font-weight:bolder;}
 dfn{font-style:italic;}
 h1{margin:.67em 0;font-size:2em;}
 mark{background-color:#ff0;color:#000;}
-small{font-size:80%;}
+small,.small{font-size:80%;}
+.big{font-size:2rem;}
 sub,sup{position:relative;vertical-align:baseline;font-size:75%;line-height:0;}
 sub{bottom:-.25em;}
 sup{top:-.5em;}
@@ -333,7 +334,6 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
 .p-table-horizontal tbody>tr:last-child>td{border-bottom-width:0}
 /* === table === */
 .docs-header {
-
     position: relative;
     background-color: #571c94;
     background-image: url(http://visdark.com/FXBTG-M/assets/img/grid.png), -webkit-gradient(linear, left bottom, right top, color-stop(0%, #571c94), color-stop(100%, #e609cf));
@@ -342,6 +342,12 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
     background-image: url(http://visdark.com/FXBTG-M/assets/img/grid.png), -o-linear-gradient(315deg, #571c94 0%, #e609cf 100%);
     background-repeat: no-repeat;
     background-position: 50% 40%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.docs-tit{
+    margin: 0;
+    color: #FFFFFF;
 }
 
 
