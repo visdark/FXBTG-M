@@ -13,7 +13,7 @@ b,strong{font-weight:inherit;font-weight:bolder;}
 dfn{font-style:italic;}
 h1{margin:.67em 0;font-size:2em;}
 mark{background-color:#ff0;color:#000;}
-small,.small{font-size:80%;}
+small,.small{font-size:65%;color: #777;line-height: 1;font-weight: 400;}
 .big{font-size:2rem;}
 sub,sup{position:relative;vertical-align:baseline;font-size:75%;line-height:0;}
 sub{bottom:-.25em;}
@@ -85,12 +85,6 @@ hr{clear:both;margin:1.25rem 0;height:0;border:solid #ddd;border-width:1px 0 0;}
 .pull-right{float:right}
 .clearfix:after,.clearfix:before{display:table;content:" "}
 .clearfix:after{clear:both}
-.color-default{color:#3d4145;}
-.color-gray{color:#999;}
-.color-primary{color:#0894ec;}
-.color-success{color:#4cd964;}
-.color-danger{color:#f6383a;}
-.color-warning{color:#f60;}
 .text-center{text-align:center;}
 .content-inner{box-sizing:border-box;margin-top:-1px;padding-bottom:.5rem;border-top:1px solid transparent;}
 .javascript-scroll{overflow:hidden;}
@@ -333,7 +327,7 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
 .p-table-horizontal td,.p-table-horizontal th{border-width:0 0 1px;border-bottom:1px solid #cbcbcb}
 .p-table-horizontal tbody>tr:last-child>td{border-bottom-width:0}
 /* === table === */
-.docs-header {
+.visi-header {
     position: relative;
     background-color: #571c94;
     background-image: url(http://visdark.com/FXBTG-M/assets/img/grid.png), -webkit-gradient(linear, left bottom, right top, color-stop(0%, #571c94), color-stop(100%, #e609cf));
@@ -345,11 +339,19 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.docs-tit{
+.no-margin{
     margin: 0;
-    color: #FFFFFF;
 }
-
+.no-padding{
+    padding: 0;
+}
+.color-default{color:#3d4145;}
+.color-gray{color:#999;}
+.color-white{color: #FFFFFF;}
+.color-primary{color:#0894ec;}
+.color-success{color:#4cd964;}
+.color-danger{color:#f6383a;}
+.color-warning{color:#f60;}
 
 
 
