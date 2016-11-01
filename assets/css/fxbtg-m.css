@@ -59,7 +59,7 @@ h6,.h6{font-size:.875rem;}
 a,button,input,select,textarea,a:active,a:hover{outline:0;}
 a{background-color:transparent;color: #0894ec;text-decoration: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
 *+h1,*+h2,*+h3,*+h4,*+h5,*+h6{margin-top:1.5em;}
-p{font-size:.7rem;line-height:1.6;}
+p{font-size:.7rem;line-height:1.6;text-align:justify;text-justify:inter-ideograph;text-indent:2em;}
 dl,ol,ul{padding:0;line-height:1.6;}
 ol,ul{padding-left:2em;}
 ol li ol,ol li ul,ul li ol,ul li ul{margin-top:0;margin-bottom:0;}
@@ -354,6 +354,7 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
     border-radius: 0.1rem;
     font-size: 0.7rem;
     margin: 1rem 0;
+    padding-bottom: .5rem;
 }
 .no-margin{
     margin: 0;
@@ -368,7 +369,7 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
 .color-primary{color:#0894ec;}
 .color-success{color:#4cd964;}
 .color-danger{color:#f6383a;}
-.color-warning{color:#f60;}
+.color-warning{color: #ff08ea;}
 .color-fxbtg{
 	color: #f60;
 }
