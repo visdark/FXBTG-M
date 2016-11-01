@@ -333,12 +333,13 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
 .p-table-horizontal tbody>tr:last-child>td{border-bottom-width:0}
 /* === table === */
 .docs-header {
+
     position: relative;
     background-color: #571c94;
-    background-image: url(../img/grid.png), -webkit-gradient(linear, left bottom, right top, color-stop(0%, #571c94), color-stop(100%, #e609cf));
-    background-image: url(../img/grid.png), -webkit-linear-gradient(135deg, #571c94 0%, #e609cf 100%);
-    background-image: url(../img/grid.png), -webkit-linear-gradient(315deg, #571c94 0%, #e609cf 100%);
-    background-image: url(../img/grid.png), -o-linear-gradient(315deg, #571c94 0%, #e609cf 100%);
+    background-image: url(http://visdark.com/FXBTG-M/assets/img/grid.png), -webkit-gradient(linear, left bottom, right top, color-stop(0%, #571c94), color-stop(100%, #e609cf));
+    background-image: url(http://visdark.com/FXBTG-M/assets/img/grid.png), -webkit-linear-gradient(135deg, #571c94 0%, #e609cf 100%);
+    background-image: url(http://visdark.com/FXBTG-M/assets/img/grid.png), -webkit-linear-gradient(315deg, #571c94 0%, #e609cf 100%);
+    background-image: url(http://visdark.com/FXBTG-M/assets/img/grid.png), -o-linear-gradient(315deg, #571c94 0%, #e609cf 100%);
     background-repeat: no-repeat;
     background-position: 50% 40%;
 }
