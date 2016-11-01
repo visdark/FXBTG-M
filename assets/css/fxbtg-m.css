@@ -366,10 +366,16 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
 .color-default{color:#3d4145;}
 .color-gray{color:#999;}
 .color-white{color: #FFFFFF;}
-.color-primary{color:#0894ec;}
-.color-success{color:#4cd964;}
-.color-danger{color:#f6383a;}
-.color-warning{color: #ff08ea;}
+.color-primary{color:#2364da;}
+.color-success{color:#98af3b;}
+.color-danger{color:#ff0103;}
+.color-warning{color: #cf476d;}
 .color-fxbtg{
-	color: #f60;
+     color: #f60;
+ }
+.color-time{
+    color: #e1c98d;
+}
+.color-ok{
+    color: #39a2bf;
 }
