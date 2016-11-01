@@ -340,7 +340,7 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
 	line-height: 2.25;
 	border-bottom: 0.1rem solid #d5d1d1;
 	text-indent: 1em;
-    
+    border-left: .3rem solid #f60;
 }
 .full-card{
     background: #fff;
@@ -364,4 +364,6 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
 .color-success{color:#4cd964;}
 .color-danger{color:#f6383a;}
 .color-warning{color:#f60;}
-.color-fxbtg{color:#f60;}
+.color-fxbtg{
+	color: #f60;
+}
