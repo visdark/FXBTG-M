@@ -325,57 +325,117 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
 .p-table-bordered tbody>tr:last-child>td{border-bottom-width:0}
 .p-table-horizontal td,.p-table-horizontal th{border-width:0 0 1px;border-bottom:1px solid #cbcbcb}
 .p-table-horizontal tbody>tr:last-child>td{border-bottom-width:0}
-/* === table === */
-.visi-header {
-    position: relative;
-    background-color: #1c2094;
-    background-image: url(http://visdark.com/FXBTG-M/assets/img/grid.png), -webkit-linear-gradient(315deg, #1c2094 0%, #0894ec 100%);
-    background-repeat: no-repeat;
-    background-position: 50% 40%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-.visi-tit1{
-      background-color: #ffffff;
-      line-height: 2.25;
-      border-bottom: 0.1rem solid #d5d1d1;
-      text-indent: 1em;
-      border-left: .3rem solid #f60;
-  }
-.visi-tit2{
-	line-height: 2.25;
-	border-bottom: 1px dashed #d5d1d1;
-    text-indent: .5em;
-}
-.full-card{
-    background: #fff;
-    box-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.3);
-    position: relative;
-    border-radius: 0.1rem;
-    font-size: 0.7rem;
-    margin: 1rem 0;
-    padding-bottom: .5rem;
-}
-.no-margin{
-    margin: 0;
-}
-.no-padding{
-    padding: 0;
-
-}
+/* === 16-11-1 === */
+.visi-header{position:relative;padding-top:2rem;padding-bottom:2rem;background-color:#1c2094;background-image:url(http://visdark.com/FXBTG-M/assets/img/grid.png),-webkit-linear-gradient(315deg,#1c2094 0,#0894ec 100%);background-position:50% 40%;background-repeat:no-repeat;}
+.visi-tit1{border-bottom:.1rem solid #d5d1d1;border-left:.3rem solid #f60;background-color:#fff;text-indent:1em;line-height:2.25;}
+.visi-tit2{border-bottom:1px dashed #d5d1d1;text-indent:.5em;line-height:2.25;}
+.visi-tit3{border:1px solid #d5d1d1;text-indent:.5em;line-height:2.25;padding: .5em;margin-top: 1rem;}
+.full-card{position:relative;margin:1rem 0;padding-bottom:.5rem;border-radius:.1rem;background:#fff;box-shadow:0 .05rem .1rem rgba(0,0,0,.3);font-size:.7rem;}
+.no-margin{margin:0;}
+.no-padding{padding:0;}
 .color-default{color:#3d4145;}
 .color-gray{color:#999;}
-.color-white{color: #FFFFFF;}
+.color-white{color:#fff;}
 .color-primary{color:#2364da;}
 .color-success{color:#98af3b;}
 .color-danger{color:#ff0103;}
-.color-warning{color: #cf476d;}
-.color-fxbtg{
-     color: #f60;
- }
-.color-time{
-    color: #e1c98d;
+.color-warning{color:#cf476d;}
+.color-fxbtg{color:#f60;}
+.color-time{color:#e1c98d;}
+.color-ok{color:#39a2bf;}
+.back-default{background-color:#3d4145;color: #ffffff;}
+.back-gray{background-color:#999;color: #ffffff;}
+.back-white{background-color:#fff;color: #7e7e7e;}
+.back-primary{background-color:#2364da;color: #ccfdff;}
+.back-success{background-color:#98af3b;color: #e4ffea;}
+.back-danger{background-color:#ff0103;color: #fff6a2;}
+.back-warning{background-color:#cf476d;color: #f3e6ec;}
+.back-fxbtg{background-color:#f60;color: #ffe09e;}
+.back-time{background-color:#e1c98d;color: #cb5200;}
+.back-ok{background-color:#39a2bf;color: #dffdff;}
+/* === 16-11-2 === */
+/* === Grid === */
+.row{overflow:hidden;margin-left:-4%;}
+.row>[class*=col-],.row>[class*=tablet-]{float:left;box-sizing:border-box;}
+.row.no-margin{margin-left:0;}
+.row .col-100{margin-left:4%;width:96%;}
+.row.no-margin .col-100{margin:0;width:100%;}
+.row .col-80{margin-left:4%;width:76%;}
+.row.no-margin .col-80{margin:0;width:80%;}
+.row .col-75{margin-left:4%;width:71.00000000000001%;}
+.row.no-margin .col-75{margin:0;width:75%;}
+.row .col-66{margin-left:4%;width:62.66666666666666%;}
+.row.no-margin .col-66{margin:0;width:66.66666666666666%;}
+.row .col-60{margin-left:4%;width:55.99999999999999%;}
+.row.no-margin .col-60{margin:0;width:60%;}
+.row .col-50{margin-left:4%;width:46%;}
+.row.no-margin .col-50{margin:0;width:50%;}
+.row .col-40{margin-left:4%;width:36%;}
+.row.no-margin .col-40{margin:0;width:40%;}
+.row .col-33{margin-left:4%;width:29.333333333333332%;}
+.row.no-margin .col-33{margin:0;width:33.333333333333336%;}
+.row .col-25{margin-left:4%;width:21%;}
+.row.no-margin .col-25{margin:0;width:25%;}
+.row .col-20{margin-left:4%;width:16%;}
+.row.no-margin .col-20{margin:0;width:20%;}
+@media all and (min-width:768px){
+    .row{margin-left:-2%;}
+    .row .col-100{margin-left:2%;width:98%;}
+    .row.no-margin .col-100{margin:0;width:100%;}
+    .row .col-80{margin-left:2%;width:78%;}
+    .row.no-margin .col-80{margin:0;width:80%;}
+    .row .col-75{margin-left:2%;width:73%;}
+    .row.no-margin .col-75{margin:0;width:75%;}
+    .row .col-66{margin-left:2%;width:64.66666666666666%;}
+    .row.no-margin .col-66{margin:0;width:66.66666666666666%;}
+    .row .col-60{margin-left:2%;width:58%;}
+    .row.no-margin .col-60{margin:0;width:60%;}
+    .row .col-50{margin-left:2%;width:48%;}
+    .row.no-margin .col-50{margin:0;width:50%;}
+    .row .col-40{margin-left:2%;width:38%;}
+    .row.no-margin .col-40{margin:0;width:40%;}
+    .row .col-33{margin-left:2%;width:31.333333333333332%;}
+    .row.no-margin .col-33{margin:0;width:33.333333333333336%;}
+    .row .col-25{margin-left:2%;width:23%;}
+    .row.no-margin .col-25{margin:0;width:25%;}
+    .row .col-20{margin-left:2%;width:18%;}
+    .row.no-margin .col-20{margin:0;width:20%;}
+    .row .tablet-100{margin-left:2%;width:98%;}
+    .row.no-margin .tablet-100{margin:0;width:100%;}
+    .row .tablet-95{margin-left:2%;width:93%;}
+    .row.no-margin .tablet-95{margin:0;width:95%;}
+    .row .tablet-90{margin-left:2%;width:87.99999999999999%;}
+    .row.no-margin .tablet-90{margin:0;width:90%;}
+    .row .tablet-85{margin-left:2%;width:82.99999999999999%;}
+    .row.no-margin .tablet-85{margin:0;width:85%;}
+    .row .tablet-80{margin-left:2%;width:78%;}
+    .row.no-margin .tablet-80{margin:0;width:80%;}
+    .row .tablet-75{margin-left:2%;width:73%;}
+    .row.no-margin .tablet-75{margin:0;width:75%;}
+    .row .tablet-66{margin-left:2%;width:64.66666666666666%;}
+    .row.no-margin .tablet-66{margin:0;width:66.66666666666666%;}
+    .row .tablet-60{margin-left:2%;width:58%;}
+    .row.no-margin .tablet-60{margin:0;width:60%;}
+    .row .tablet-50{margin-left:2%;width:48%;}
+    .row.no-margin .tablet-50{margin:0;width:50%;}
+    .row .tablet-40{margin-left:2%;width:38%;}
+    .row.no-margin .tablet-40{margin:0;width:40%;}
+    .row .tablet-33{margin-left:2%;width:31.333333333333332%;}
+    .row.no-margin .tablet-33{margin:0;width:33.333333333333336%;}
+    .row .tablet-25{margin-left:2%;width:23%;}
+    .row.no-margin .tablet-25{margin:0;width:25%;}
+    .row .tablet-20{margin-left:2%;width:18%;}
+    .row.no-margin .tablet-20{margin:0;width:20%;}
+    .row .tablet-15{margin-left:2%;width:13%;}
+    .row.no-margin .tablet-15{margin:0;width:15%;}
+    .row .tablet-10{margin-left:2%;width:8%;}
+    .row.no-margin .tablet-10{margin:0;width:10%;}
+    .row .tablet-5{margin-left:2%;width:3%;}
+    .row.no-margin .tablet-5{margin:0;width:5%;}
 }
-.color-ok{
-    color: #39a2bf;
-}
+.row-flex{display:-webkit-box;-webkit-box-sizing:border-box;width:100%;}
+.row-flex .col{float:none;width:0;-webkit-box-flex:1;}
+.row-flex .col-2{-webkit-box-flex:2;}
+.row-flex .col-3{-webkit-box-flex:3;}
+.row-flex .col-4{-webkit-box-flex:4;}
+

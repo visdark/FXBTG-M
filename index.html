@@ -20,7 +20,7 @@
 
 	<div class="page-group">
 		<div class="page page-current" name="index">
-			<header class="bar bar-nav">
+			<header class="bar bar-nav print-hide">
 				<a class="icon icon-me pull-left open-panel"></a>
 				<h1 class="title">VISI手机端框架</h1>
 			</header>
@@ -38,7 +38,7 @@
 					<span class="tab-label">JS 组件</span>
 				</a>
 				<a class="tab-item external" href="#">
-					<span class="icon icon-settings"></span>
+                    <span class="icon icon-browser"></span>
 					<span class="tab-label">FXBTG 官网</span>
 				</a>
 			</nav>
@@ -61,6 +61,14 @@
 				<h4 class="no-margin color-gray"><span class="color-primary">H4-</span>弱水三千，倒贴两瓢</h4>
                 <h5 class="no-margin color-gray"><span class="color-primary">H5-</span>弱水三千，倒贴两瓢</h5>
 				<h6 class="no-margin color-gray"><span class="color-primary">H6-</span>弱水三千，倒贴两瓢</h6>
+                    <h5 class="visi-tit1 back-gray">A级别标题</h5>
+                    <h6 class="visi-tit1 back-success">A级别标题</h6>
+                    <div class="visi-tit1">A级别标题</div>
+                    <h5 class="visi-tit2 back-time">B级别标题</h5>
+                    <div class="visi-tit2">B级别标题</div>
+                    <h6 class="visi-tit2 back-ok">B级别标题</h6>
+                    <span class="visi-tit3 back-warning">C级别标题</span>  <span class="visi-tit3">C级别标题</span>
+                    <p>在FXBTG金融交易的股指是差价合约交易，简称CFD，属保证金交易的一种，泛指不涉及实物商品或证券的交换、仅以结算价与合约价的差额作现金结算的交易方式。</p>
                 </div>
 				<hr/>
                     <div class="content-padded">
@@ -73,6 +81,13 @@
                         <div class="color-ok"><span class="icon icon-right"></span>提示正确的颜色</div>
                         <div class="color-warning"><span class="icon icon-right"></span>女性化粉红色，可用于警告</div>
                         <div class="color-danger"><span class="icon icon-right"></span>错误或者警告</div>
+                        <div class="back-fxbtg"><span class="icon icon-right"></span>网站主要颜色，衔接</div>
+                        <div class="back-primary"><span class="icon icon-right"></span>男性科技色，IT技术方面</div>
+                        <div class="back-time"><span class="icon icon-right"></span>时间，输入框，提示框，不明显的</div>
+                        <div class="back-success"><span class="icon icon-right"></span>辅助色，提示成功</div>
+                        <div class="back-ok"><span class="icon icon-right"></span>提示正确的颜色</div>
+                        <div class="back-warning"><span class="icon icon-right"></span>女性化粉红色，可用于警告</div>
+                        <div class="back-default"><span class="icon icon-right"></span>错误或者警告</div>
 </div>
                     <hr/>
 
@@ -86,35 +101,75 @@
                 </div>
                 </div>
                 <div class="full-card">
-                    <h5 class="visi-tit1 color-fxbtg">代码-Code</h5>
+                    <h5 class="visi-tit1 color-fxbtg">布局和排版-Grid</h5>
                     <div class="content-padded">
-                        <h6 class="visi-tit2 color-default">用户输入</h6>
-                        <p>在FXBTG金融交易的股指是差价合约交易，简称CFD，属保证金交易的一种，泛指不涉及实物商品或证券的交换、仅以结算价与合约价的差额作现金结算的交易方式。</p>
+                        <h6 class="visi-tit2 color-default">百分比排列</h6>
+                        <div class="row text-center">
+                            <div class="col-50 back-time">50%</div>
+                            <div class="col-50 back-success">50%</div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-33 back-time">33%</div>
+                            <div class="col-33 back-success">33%</div>
+                            <div class="col-33 back-ok">33%</div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-25 back-time">25%</div>
+                            <div class="col-25 back-success">25%</div>
+                            <div class="col-25 back-ok">25%</div>
+                            <div class="col-25 back-primary">25%</div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-20 back-time">20%</div>
+                            <div class="col-20 back-success">20%</div>
+                            <div class="col-20 back-ok">20%</div>
+                            <div class="col-20 back-primary">20%</div>
+                            <div class="col-20 back-fxbtg">20%</div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-20 back-warning">20%</div>
+                            <div class="col-80 back-default">80%</div>
+                            <div class="col-25 back-warning">25%</div>
+                            <div class="col-75 back-default">75%</div>
+                            <div class="col-33 back-warning">33%</div>
+                            <div class="col-66 back-default">66%</div>
+                            <div class="col-40 back-warning">40%</div>
+                            <div class="col-60 back-default">60%</div>
+                            <div class="col-50 back-warning">50%</div>
+                            <div class="col-50 back-default">50%</div>
+
+                        </div>
+                        <h6 class="visi-tit2 color-default">无间距</h6>
+                        <div class="row no-margin text-center">
+                            <div class="col-20 back-warning">20%</div>
+                            <div class="col-80 back-default">80%</div>
+                        </div>
 
 
                     </div>
                     <hr/>
                     <div class="content-padded">
-                        <h6 class="visi-tit2 color-default">颜色样式</h6>
-                        <p class="text-muted"><span class="color-success">外汇交易</span>是世界上流动性最强的金融市场之一。<span class="color-fxbtg">FXBTG金融集团</span>提供的外汇交易可以做60种以上的货币对，包括<span class="color-danger">主要货币</span>对和次级货币对，<span class="color-primary">交易时间</span>为每周<span class="color-warning">5</span>天，每天<span class="color-warning">24</span>小时。</p>
-                        <div class="color-fxbtg"><span class="icon icon-right"></span>网站主要颜色，衔接</div>
-                        <div class="color-primary"><span class="icon icon-right"></span>男性科技色，IT技术方面</div>
-                        <div class="color-time"><span class="icon icon-right"></span>时间，输入框，提示框，不明显的</div>
-                        <div class="color-success"><span class="icon icon-right"></span>辅助色，提示成功</div>
-                        <div class="color-ok"><span class="icon icon-right"></span>提示正确的颜色</div>
-                        <div class="color-warning"><span class="icon icon-right"></span>女性化粉红色，可用于警告</div>
-                        <div class="color-danger"><span class="icon icon-right"></span>错误或者警告</div>
+                        <h6 class="visi-tit2 color-default">Flex 网格布局</h6>
+                        <div class="row-flex  text-center">
+                            <div class="col back-default">平均分</div>
+                            <div class="col back-warning">平均分</div>
+                            <div class="col back-default">平均分</div>
+                            <div class="col back-warning">平均分</div>
+                        </div>
+                        <div class="row-flex  text-center">
+                            <div class="col col-2 back-default">2/3</div>
+                            <div class="col back-warning">1/3</div>
+                        </div>
+                        <div class="row-flex  text-center">
+                            <div class="col col-3 back-default">3/4</div>
+                            <div class="col back-warning">1/4</div>
+                        </div>
+                        <div class="row-flex  text-center">
+                            <div class="col col-4 back-default">4/5</div>
+                            <div class="col back-warning">1/5</div>
+                        </div>
                     </div>
                     <hr/>
-
-                    <div class="content-padded">
-                        <h6 class="visi-tit2 color-default">颜色样式</h6>
-                        <p class="text-primary">在FXBTG金融交易的股指是差价合约交易，简称CFD，属保证金交易的一种，泛指不涉及实物商品或证券的交换、仅以结算价与合约价的差额作现金结算的交易方式。</p>
-                        <p class="text-success">原油期货是最重要的石油期货品种，石油/汽油产品是快速增长的市场，FXBTG金融提供的石油合约定价透明，大幅度流动性以及易于获得产业信息，保证金比例仅有1%，24小时报价。</p>
-                        <p class="text-info">黄金及白银以其独有的特性－－不变质、易流通、保值、投资、储值的功能作为人们资产保值的首选。</p>
-                        <p class="text-warning">简单来说,本币升值,汇率上升,有利于本国的农产进口,不利于本国农产品出口。而本币贬值,汇率下降,有利于本国农产品出口,不利于本国农产品进口</p>
-                        <p class="text-danger">Bootstrap ships with vanilla CSS, but its source code utilizes the two most popular CSS preprocessors, Less and Sass. Quickly get started with precompiled CSS or build on the source.</p>
-                    </div>
                 </div>
 			</div>
 		</div>
