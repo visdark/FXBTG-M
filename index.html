@@ -64,7 +64,7 @@
                     <h5 class="visi-tit1 back-gray">A级别标题</h5>
                     <h6 class="visi-tit1 back-success">A级别标题</h6>
                     <div class="visi-tit1">A级别标题</div>
-                    <h5 class="visi-tit2 back-time">B级别标题</h5>
+                    <h5 class="visi-tit2 back-primary">B级别标题</h5>
                     <div class="visi-tit2">B级别标题</div>
                     <h6 class="visi-tit2 back-ok">B级别标题</h6>
                     <span class="visi-tit3 back-warning">C级别标题</span>  <span class="visi-tit3">C级别标题</span>
@@ -150,7 +150,7 @@
                     <hr/>
                     <div class="content-padded">
                         <h6 class="visi-tit2 color-default">Flex 网格布局</h6>
-                        <div class="row-flex  text-center">
+                        <div class="row-flex  text-center whitespace">
                             <div class="col back-default">平均分</div>
                             <div class="col back-warning">平均分</div>
                             <div class="col back-default">平均分</div>
@@ -168,8 +168,47 @@
                             <div class="col col-4 back-default">4/5</div>
                             <div class="col back-warning">1/5</div>
                         </div>
+                        <h6 class="visi-tit2 color-default">Flex 竖排布局</h6>
+                        <div class="row-flex text-center row-flex-ver">
+                            <div class="col back-default">
+                                <div class="align-ver" style="height: 3rem;">
+                                    <div class="align-ver-mid">
+                                        文字垂直居中
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col back-warning"><div class="align-ver" style="height: 3rem;">
+                                <div class="align-ver-mid">
+                                    文字垂直居中
+                                </div>
+                            </div></div>
+                        </div>
+                        <div class="row-flex text-center row-flex-ver">
+                            <div class="col back-default"><div class="align-ver" style="height: 1.5rem;">
+                                <div class="align-ver-mid">
+                                    文字垂直居中
+                                </div>
+                            </div></div>
+                            <div class="col col-3 back-warning"><div class="align-ver" style="height: 4.5rem;">
+                                <div class="align-ver-mid">
+                                    文字垂直居中（需要声明高度）
+                                </div>
+                            </div></div>
+                        </div>
+
+
                     </div>
                     <hr/>
+                    <div class="content-padded">
+                        <h6 class="visi-tit2 color-default">列表按钮</h6>
+                        <div class="list-block">
+                            <ul>
+                                <li><a href="#" class="item-link list-button">列表按钮1</a></li>
+                                <li><a href="#" class="item-link list-button">列表按钮2</a></li>
+                                <li><a href="#" class="item-link list-button">列表按钮3</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 			</div>
 		</div>
@@ -184,8 +223,9 @@
 		</div>
 	</div>
     </body>
+    <!--
 	<script src="assets/js/zepto.min.js"></script>
 	<script src="assets/js/sm.min.js"></script>
-	<script>$.init()</script>
+	<script>$.init()</script> -->
 
 </html>
