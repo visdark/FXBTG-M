@@ -197,7 +197,7 @@ body.with-panel-right-cover .panel-right{-webkit-transform:translate3d(-12rem,0,
 body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transition-property:-webkit-transform;transition-property:transform;}
 /*! Pure v0.6.0 */
 /* === button === */
-.button{position:relative;display:block;box-sizing:border-box;margin:0;padding:0 .5rem;height:1.5rem;border:1px solid #2975ff;border-radius:.25rem;background:0 0;color:#2058ba;text-align:center;text-decoration:none;text-overflow:ellipsis;white-space:nowrap;font-size:.7rem;font-family:inherit;line-height:1.5rem;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;}
+.button{position:relative;display:block;box-sizing:border-box;margin:0;padding:0 .5rem;border:1px solid #2975ff;border-radius:.25rem;background:0 0;color:#2058ba;text-align:center;text-decoration:none;text-overflow:ellipsis;white-space:nowrap;font-size:.7rem;font-family:inherit;line-height:1.5rem;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;}
 
 /* === form === */
 /* === 16-11-2 === */
