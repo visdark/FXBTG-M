@@ -338,7 +338,7 @@
 .o-icon-sitemap{margin:21px 5px 11px;width:24px;height:2px;box-shadow:0 -5px;}
 .o-icon-sitemap:before{width:6px;height:6px;border-radius:2px;box-shadow:inset 0 0 0 32px,11px 0,-11px 0,0 -14px 0 1px;}
 .o-icon-sitemap:after{width:2px;height:10px;box-shadow:0 -7px,11px -5px,-11px -5px;}
-[class*=o-icon-]{position:relative;display:inline-block;color:#2364da;vertical-align:middle;text-align:left;text-indent:-9999px;font-style:normal;direction:ltr;}
+[class*=o-icon-]{position:relative;display:inline-block;vertical-align:middle;text-align:left;text-indent:-9999px;font-style:normal;direction:ltr;}
 [class*=o-icon-]:after,[class*=o-icon-]:before{content:'';pointer-events:none;}
 [class*=o-icon-][class*=Circle]{margin:2px;width:30px;height:30px;border-radius:50%;}
 [class*=o-icon-][class*=Square]{margin:2px;width:30px;height:30px;border-radius:4px;}
