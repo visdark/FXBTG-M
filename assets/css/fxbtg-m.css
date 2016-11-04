@@ -44,3 +44,13 @@
 .back-default, .back-gray, .back-primary, .back-success, .back-danger, .back-warning, .back-fxbtg, .back-time, .back-ok {
     color: #fff;
 }
+
+.visi-header {
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #ff931c;
+    background-image: url(http://visdark.com/FXBTG-M/assets/img/grid.png), -webkit-linear-gradient(315deg, #ff1904 0, #ff931c 100%);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
