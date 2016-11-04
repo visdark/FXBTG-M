@@ -303,3 +303,27 @@ address {
     font-style: normal;
     line-height: 1.42857143;
 }
+
+.icons-demo .icon {
+    display: inline-block;
+    margin: .15rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #ddd;
+    border-radius: 1.25rem;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+.icon {
+    display: inline-block;
+    background-position: center;
+    background-size: 100% auto;
+    vertical-align: middle;
+    font-style: normal;
+    font-family: iconfont-sm !important;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    -moz-osx-font-smoothing: grayscale;
+}
