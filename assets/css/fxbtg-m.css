@@ -40,3 +40,7 @@
     -webkit-text-stroke-width: .2px;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.back-default, .back-gray, .back-white, .back-primary, .back-success, .back-danger, .back-warning, .back-fxbtg, .back-time, .back-ok {
+    color: #fff;
+}
