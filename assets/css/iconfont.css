@@ -1,7 +1,7 @@
 @font-face {
     font-family: "good ";
-    src: url('iconfont.eot?t=1478242056570'); /* IE9*/
-    src: url('iconfont.eot?t=1478242056570#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('iconfont.woff?t=1478242056570') format('woff'), /* chrome, firefox */ url('iconfont.ttf?t=1478242056570') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('iconfont.svg?t=1478242056570#good ') format('svg'); /* iOS 4.1- */
+    src: url('iconfont.eot?t=1478243334931'); /* IE9*/
+    src: url('iconfont.eot?t=1478243334931#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('iconfont.woff?t=1478243334931') format('woff'), /* chrome, firefox */ url('iconfont.ttf?t=1478243334931') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('iconfont.svg?t=1478243334931#good ') format('svg'); /* iOS 4.1- */
 }
 
 .good {
@@ -33,6 +33,14 @@
     content: "\e604";
 }
 
+.visi-fxbtg-015:before {
+    content: "\e628";
+}
+
+.visi-fxbtg-012:before {
+    content: "\e624";
+}
+
 .visi-friends:before {
     content: "\e644";
 }
@@ -41,12 +49,20 @@
     content: "\e62a";
 }
 
+.visi-fxbtg-13:before {
+    content: "\e607";
+}
+
 .visi-menu:before {
     content: "\e63e";
 }
 
 .visi-sina-s:before {
     content: "\e647";
+}
+
+.visi-fxbtg-011:before {
+    content: "\e660";
 }
 
 .visi-friends-o:before {
@@ -67,6 +83,10 @@
 
 .visi-sian-o:before {
     content: "\e79e";
+}
+
+.visi-fxbtg-014:before {
+    content: "\e629";
 }
 
 .visi-weixin-o:before {
@@ -139,9 +159,5 @@
 
 .visi-fxbtg:before {
     content: "\e503";
-}
-
-.visi-ren1:before {
-    content: "\e504";
 }
 
