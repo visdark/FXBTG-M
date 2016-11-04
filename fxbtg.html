@@ -23,6 +23,11 @@
                 fill: currentColor;
                 overflow: hidden;
             }
+
+            .menu-icon {
+                width: 1.2rem;
+                height: 1.2rem;
+            }
         </style>
         <script src="assets/js/fxbtg-m-modernizr.js"></script>
     </head>
@@ -47,7 +52,11 @@
             </header>
 			<nav class="bar bar-tab">
                 <a class="tab-item external back-fxbtg" href="index.html">
-                    <span class="icon good  visi-fx001 back-fxbtg color-fxbtg"></span>
+                    <span class="icon">
+                           <svg class="menu-icon" aria-hidden="true">
+                               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#visi-ren1"></use>
+                           </svg>
+                    </span>
 					<span class="tab-label">返回</span>
 				</a>
 				<a class="tab-item external back-fxbtg" href="#">

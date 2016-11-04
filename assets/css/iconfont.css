@@ -1,7 +1,7 @@
 @font-face {
     font-family: "good ";
-    src: url('iconfont.eot?t=1478230973544'); /* IE9*/
-    src: url('iconfont.eot?t=1478230973544#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('iconfont.woff?t=1478230973544') format('woff'), /* chrome, firefox */ url('iconfont.ttf?t=1478230973544') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('iconfont.svg?t=1478230973544#good ') format('svg'); /* iOS 4.1- */
+    src: url('iconfont.eot?t=1478242056570'); /* IE9*/
+    src: url('iconfont.eot?t=1478242056570#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('iconfont.woff?t=1478242056570') format('woff'), /* chrome, firefox */ url('iconfont.ttf?t=1478242056570') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('iconfont.svg?t=1478242056570#good ') format('svg'); /* iOS 4.1- */
 }
 
 .good {
@@ -139,5 +139,9 @@
 
 .visi-fxbtg:before {
     content: "\e503";
+}
+
+.visi-ren1:before {
+    content: "\e504";
 }
 
