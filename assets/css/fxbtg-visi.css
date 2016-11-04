@@ -297,3 +297,9 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
 .g-avg-6>.g-col,.g-avg-6>div,.g-avg-6>li{max-width:16.66667%;-webkit-box-flex:0;-ms-flex:0 0 16.66667%;flex:0 0 16.66667%;}
 .g-avg-6.g-bordered>.g-col:nth-of-type(6n):before,.g-avg-6>div:nth-of-type(6n):before,.g-avg-6>li:nth-of-type(6n):before{display:none;}
 [class*=g-avg-]>.g-col.no-padding, [class*=g-avg-]>div, [class*=g-avg-]>li {padding: .5rem 0;}
+
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+}
