@@ -74,6 +74,8 @@ blockquote cite,blockquote small{display:block;color:#555;font-size:.8125rem;}
 blockquote cite a,blockquote cite a:visited,blockquote small a,blockquote small a:visited{color:#555;}
 hr{clear:both;margin:1.25rem 0;height:0;border:solid #ddd;border-width:1px 0 0;}
 code{padding:2px 4px;border-radius:4px;background-color:#f9f2f4;color:#c7254e;font-size:90%;}
+
+/* === icon === */
 .page{z-index:2000;background:#eee}
 .content,.page{position:absolute;top:0;right:0;bottom:0;left:0}
 .content{overflow:auto;-webkit-overflow-scrolling:touch}
@@ -198,7 +200,6 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
 /*! Pure v0.6.0 */
 /* === button === */
 .button{position:relative;display:block;box-sizing:border-box;margin:0;padding:0 .5rem;border:1px solid #2975ff;border-radius:.25rem;background:0 0;color:#2058ba;text-align:center;text-decoration:none;text-overflow:ellipsis;white-space:nowrap;font-size:.7rem;font-family:inherit;line-height:1.5rem;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;}
-/* === form === */
 /* === 16-11-2 === */
 /* === Grid === */
 .row{overflow:hidden;margin-left:-4%;}

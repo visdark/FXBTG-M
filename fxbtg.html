@@ -14,8 +14,16 @@
 		<!-- 参考的框架有normalize,SUI,Pure -->
         <link rel="stylesheet" href="assets/css/fxbtg-visi.css">
         <link rel="stylesheet" href="assets/css/fxbtg-m.css">
-        <link rel="stylesheet" href="assets/css/fxbtg-icon.css">
-        <link rel="stylesheet" href=//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/iconfont.css">
+        <style type="text/css">
+            .fxbtg-icon {
+                width: 100%;
+                height: 1.5rem;
+                vertical-align: -0.15em;
+                fill: currentColor;
+                overflow: hidden;
+            }
+        </style>
         <script src="assets/js/fxbtg-m-modernizr.js"></script>
     </head>
     <body>
@@ -25,10 +33,14 @@
 		<div class="page page-current" name="index">
             <header class="bar bar-nav">
                 <div class="row no-margin text-center">
-                    <a class="icon-m pull-right"><i class="o-icon-hamburger color-fxbtg"></i></a>
-                    <div class="logo text-center"><img src="assets/img/logo.png" class="img-responsive" alt="">
+                    <a class="icon-menu pull-right"> <i class="icon good  visi-menu-ver color-fxbtg"></i></a>
+                    <div class="logo text-center">
+                        <svg class="fxbtg-icon" aria-hidden="true">
+                            <use xlink:href="#visi-fxbtg"></use>
+                        </svg>
+                        <div class="clearfix"></div>
+
                     </div>
-                </div>
                 <div class="clearfix"></div>
             </header>
 			<nav class="bar bar-tab">
@@ -54,7 +66,18 @@
                 </a>
 			</nav>
 			<div class="content">
-			11111
+                <h5 class="visi-fxbtg-tit1 text-center no-margin">FXBTG提供多种商品供君选择</h5>
+                <div class="icons-demo text-center g g-bordered g-avg-4 color-fxbtg back-white">
+                    <div class="g-col no-padding"><i class="icon good  visi-fx001 back-fxbtg"></i><br/>外汇</div>
+                    <div class="g-col no-padding"><i class="icon good  visi-fx006 back-danger"></i><br/>贵金属</div>
+                    <div class="g-col no-padding"><i class="icon good  visi-up-fx002 back-default"></i><br/>股指</div>
+                    <div class="g-col no-padding"><i class="icon good  visi-fx003 back-gray"></i><br/>能源</div>
+                    <div class="g-col no-padding"><i class="icon good  visi-fx005 back-ok"></i><br/>农产品</div>
+                    <div class="g-col no-padding"><i class="icon good  visi-fx007 back-primary"></i><br/>期权</div>
+                    <div class="g-col no-padding"><i class="icon good  visi-fx004 back-success"></i><br/>石油</div>
+                    <div class="g-col no-padding"><i class="icon good  visi-more back-warning"></i><br/>更多</div>
+
+                </div>
 
 			</div>
 		</div>
@@ -72,6 +95,7 @@
 
      <script src="assets/js/zepto.min.js"></script>
       <script src="assets/js/sm.min.js"></script>
+    <script src="assets/css/iconfont.js"></script>
      <script>$.init()</script>
 
 </html>

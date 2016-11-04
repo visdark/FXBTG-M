@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "good ";
+    src: url('iconfont.eot?t=1478230973544'); /* IE9*/
+    src: url('iconfont.eot?t=1478230973544#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('iconfont.woff?t=1478230973544') format('woff'), /* chrome, firefox */ url('iconfont.ttf?t=1478230973544') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('iconfont.svg?t=1478230973544#good ') format('svg'); /* iOS 4.1- */
+}
+
+.good {
+    font-family: "good " !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.visi-menu-ver:before {
+    content: "\e62c";
+}
+
+.visi-sina:before {
+    content: "\e601";
+}
+
+.visi-menu-o:before {
+    content: "\e627";
+}
+
+.visi-qq:before {
+    content: "\e62d";
+}
+
+.visi-fx001:before {
+    content: "\e604";
+}
+
+.visi-friends:before {
+    content: "\e644";
+}
+
+.visi-weixin:before {
+    content: "\e62a";
+}
+
+.visi-menu:before {
+    content: "\e63e";
+}
+
+.visi-sina-s:before {
+    content: "\e647";
+}
+
+.visi-friends-o:before {
+    content: "\e613";
+}
+
+.visi-more:before {
+    content: "\e707";
+}
+
+.visi-up-fx002:before {
+    content: "\e684";
+}
+
+.visi-fx006:before {
+    content: "\e606";
+}
+
+.visi-sian-o:before {
+    content: "\e79e";
+}
+
+.visi-weixin-o:before {
+    content: "\e6c3";
+}
+
+.visi-about:before {
+    content: "\e637";
+}
+
+.visi-fx007:before {
+    content: "\e6a8";
+}
+
+.visi-fx008:before {
+    content: "\e767";
+}
+
+.visi-fx009:before {
+    content: "\e768";
+}
+
+.visi-fx003:before {
+    content: "\e664";
+}
+
+.visi-qq-o:before {
+    content: "\e600";
+}
+
+.visi-fx004:before {
+    content: "\e860";
+}
+
+.visi-qq-s:before {
+    content: "\e659";
+}
+
+.visi-fx005:before {
+    content: "\e612";
+}
+
+.visi-weixin-s:before {
+    content: "\e61b";
+}
+
+.visi-weixin-logo:before {
+    content: "\e8fc";
+}
+
+.visi-sina-logo:before {
+    content: "\e621";
+}
+
+.visi-friends-logo:before {
+    content: "\e625";
+}
+
+.visi-qq-logo:before {
+    content: "\e626";
+}
+
+.visi-friends-s:before {
+    content: "\e69c";
+}
+
+.visi-fx010:before {
+    content: "\e861";
+}
+
+.visi-fxbtg:before {
+    content: "\e503";
+}
+
