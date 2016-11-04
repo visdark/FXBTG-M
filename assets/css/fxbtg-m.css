@@ -41,6 +41,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.back-default, .back-gray, .back-white, .back-primary, .back-success, .back-danger, .back-warning, .back-fxbtg, .back-time, .back-ok {
+.back-default, .back-gray, .back-primary, .back-success, .back-danger, .back-warning, .back-fxbtg, .back-time, .back-ok {
     color: #fff;
 }
