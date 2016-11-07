@@ -5,6 +5,7 @@
     font-size: 3rem;
     line-height: 1.2rem;
 }
+
 .bar-tab .tab-item {
     color: #efeff4;
 }
@@ -16,8 +17,6 @@
 .visi-fxbtg-tit1 {
     padding: 1rem;
 }
-
-
 
 .back-default, .back-gray, .back-primary, .back-success, .back-danger, .back-warning, .back-fxbtg, .back-time, .back-ok {
     color: #fff;
@@ -35,4 +34,17 @@
 
 .good {
     font-size: 1rem;
+}
+
+.fxbtg-icon {
+    width: 100%;
+    height: 1.5rem;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.menu-icon {
+    width: 1.2rem;
+    height: 1.2rem;
 }

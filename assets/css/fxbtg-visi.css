@@ -65,7 +65,6 @@ a{background-color:transparent;color: #2364da;text-decoration: none;-webkit-tap-
 *+h1,*+h2,*+h3,*+h4,*+h5,*+h6{margin-top:1.5em;}
 p{font-size:.7rem;line-height:1.6;text-align:justify;text-indent:2em;}
 dl,ol,ul{padding:0;line-height:1.6;}
-ol,ul{padding-left:2em;}
 ol li ol,ol li ul,ul li ol,ul li ul{margin-top:0;margin-bottom:0;}
 dl dt{margin-bottom:.625rem;font-weight:700;}
 dl dd{margin:0 0 .75rem 0;font-size:.9375rem;}
@@ -298,6 +297,7 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
 .g-avg-6.g-bordered>.g-col:nth-of-type(6n):before,.g-avg-6>div:nth-of-type(6n):before,.g-avg-6>li:nth-of-type(6n):before{display:none;}
 [class*=g-avg-]>.g-col.no-padding, [class*=g-avg-]>div, [class*=g-avg-]>li {padding: .5rem 0;}
 
+/* === 11-7 list === */
 address {
     margin-bottom: 20px;
     font-style: normal;
@@ -326,4 +326,83 @@ address {
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: .2px;
     -moz-osx-font-smoothing: grayscale;
+}
+
+/* === sear === */
+.visi-sear-wrap {
+    display: -webkit-box;
+    height: 44px;
+    background-color: #ebeced;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.visi-sear-wrap button {
+    margin-right: 10px;
+}
+
+.visi-sear-wrap .visi-sear-cancel {
+    padding: 4px 8px;
+    color: #00a5e0;
+    font-size: 16px;
+}
+
+.visi-sear-wrap .ui-icon-close, .visi-sear-wrap .visi-sear-input, .visi-sear-wrap button {
+    display: none;
+}
+
+.visi-sear-wrap.focus {
+    -webkit-box-pack: start;
+}
+
+.visi-sear-wrap.focus .ui-icon-close, .visi-sear-wrap.focus .visi-sear-input, .visi-sear-wrap.focus button {
+    display: block;
+}
+
+.visi-sear-wrap.focus .visi-sear-text {
+    display: none;
+}
+
+.visi-sear {
+    position: relative;
+    display: -webkit-box;
+    margin: 0 10px;
+    padding-left: 4px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background: #fff;
+    color: #bbb;
+    font-size: 14px;
+    line-height: 30px;
+    -webkit-box-flex: 1;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.visi-sear input {
+    padding: 4px 0;
+    width: 100%;
+    border: 0;
+    background: 0 0;
+    color: #000;
+    -webkit-appearance: none;
+}
+
+.visi-sear .ui-icon-search {
+    line-height: 30px;
+}
+
+.visi-sear .ui-icon-close {
+    line-height: 30px;
+}
+
+.visi-sear-input {
+    -webkit-box-flex: 1;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .visi-sear.ui-border-radius:before {
+        border-radius: 10px;
+    }
 }
