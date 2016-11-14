@@ -283,6 +283,14 @@ body.panel-closing .page{-webkit-transition:.4s;transition:.4s;-webkit-transitio
 [class*=g-avg-]{overflow:visible;list-style:none;-ms-flex-wrap:wrap;flex-wrap:wrap;}
 [class*=g-avg-]>.g-col,[class*=g-avg-]>div,[class*=g-avg-]>li{padding:.625rem;}
 .g-col{padding-right:.625rem;padding-left:.625rem;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;}
+
+.g-col-2 {
+    padding-right: .625rem;
+    padding-left: .625rem;
+    -webkit-box-flex: 2;
+    -ms-flex: 2 2 auto;
+    flex: 2 2 auto;
+}
 .g-avg-1>.g-col,.g-avg-1>div,.g-avg-1>li{max-width:100%;-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;}
 .g-avg-1.g-bordered>.g-col:nth-of-type(1n):before,.g-avg-1>div:nth-of-type(1n):before,.g-avg-1>li:nth-of-type(1n):before{display:none;}
 .g-avg-2>.g-col,.g-avg-2>div,.g-avg-2>li{max-width:50%;-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;}
@@ -328,7 +336,6 @@ address {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* === sear === */
 .visi-sear-wrap {
     display: -webkit-box;
     height: 44px;

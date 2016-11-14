@@ -1,0 +1,13 @@
+/*! VISI-m-1.0 VISI手机平板移动端框架 */
+
+/*! 插件：Normalize.css-5.0 下载地址 http://necolas.github.io/normalize.css/ */
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
